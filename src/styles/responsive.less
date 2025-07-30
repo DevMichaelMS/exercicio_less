@@ -1,4 +1,7 @@
-@media screen and (max-width: 1023px) {
+@tablet: ~"(max-width: 1023px)";
+@mobile: ~"(max-width: 767px)";
+
+@media @tablet {
     .container {
         max-width: 80%;
     }
@@ -9,7 +12,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media @mobile {
     .products {
         display: block;
 
